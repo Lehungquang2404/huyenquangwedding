@@ -3003,7 +3003,7 @@ html, body  {
       -webkit-animation: beat 3.0s         infinite ease-in-out;
   }
   .heart:before , .heart:after {
-    background: #11235A;
+    background: #C40C0C;
   }
   .heart:before , .heart:after {
       position: absolute;
