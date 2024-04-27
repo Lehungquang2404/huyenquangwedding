@@ -1362,7 +1362,7 @@ html, body  {
       padding-bottom: 20%;
     }
     .invitation-page.show{
-      background-color: #0F1035;
+      background-color: rgba(255, 177, 177, 0.8);
     }
     .column1{
       display: flex;
@@ -2269,6 +2269,7 @@ html, body  {
     }
     #ourstory{
       padding-top: 5%;
+      /* height: 60vh; */
       /* margin-top: -100px; */
     }
     .thumbnail{
@@ -2278,7 +2279,7 @@ html, body  {
       font-size: 60px;
     }
     .arrows{
-      top: 15%;
+      top: 2%;
       left: 75%;
     }
     .thumbnail .item{
@@ -2287,8 +2288,28 @@ html, body  {
     .thumbnail .item.active{
       height: 80px;
     }
-    .story-slider .story-list .story-item img{
+    .story-slider .story-list .story-item{
       object-fit: cover;
+    }
+    /* .story-slider{
+      height: 50vh;
+    } */
+    /* .story-slider .story-list .story-item{
+      padding-bottom: 0px;
+    } */
+
+    .story-item img{
+      object-position: top;
+      width: 100%;
+      /* width: fit-content;
+      height: fit-content; */
+    }
+
+    /* .story-item{
+      height: auto;
+    } */
+    .thumbnail{
+      top: 35%;
     }
   }
 
